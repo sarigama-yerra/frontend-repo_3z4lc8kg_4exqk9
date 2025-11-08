@@ -12,7 +12,7 @@ const pulse = {
 
 export default function SceneIllustration() {
   return (
-    <section className="relative mx-auto max-w-6xl px-6">
+    <section className="relative mx-auto max-w-6xl px-6 -mt-16 md:-mt-24">
       {/* Holographic UI overlay */}
       <div className="pointer-events-none absolute inset-x-0 -top-8 z-0 mx-auto h-40 max-w-4xl bg-gradient-to-r from-sky-200/30 via-emerald-200/30 to-orange-200/30 blur-3xl" />
 
