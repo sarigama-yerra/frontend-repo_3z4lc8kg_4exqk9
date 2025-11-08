@@ -55,8 +55,9 @@ export default function CharactersShowcase() {
             <div
               className={`pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-gradient-to-br ${color} opacity-20 blur-2xl`}
             />
-            <div className="mb-3 inline-flex rounded-lg bg-white/80 p-2 text-slate-700 shadow-sm backdrop-blur">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-lg bg-white/80 px-3 py-2 text-slate-700 shadow-sm backdrop-blur">
               <Icon className="h-5 w-5" aria-hidden="true" />
+              <span className="text-xs font-medium text-slate-600">Anime detail • Mata berkilau</span>
             </div>
             <div className="text-base font-semibold text-slate-900">{role}</div>
             <p className="mt-1 text-sm text-slate-600">{desc}</p>
